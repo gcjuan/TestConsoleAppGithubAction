@@ -14,6 +14,7 @@ namespace TestProject1
         [Fact]
         public void Test2()
         {
+			// some comment
             Assert.Equal(DateTime.Now.ToString("f"), Utility.GetCurrentDate());
         }
     }
