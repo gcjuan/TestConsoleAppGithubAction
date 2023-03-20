@@ -9,7 +9,12 @@ namespace TestProject1
 		public void Test1()
 		{
 			Assert.Equal(DateTime.Now.ToString("f"), Utility.GetCurrentDate());
-
 		}
-	}
+
+        [Fact]
+        public void Test2()
+        {
+            Assert.Equal(DateTime.Now.ToString("f"), Utility.GetCurrentDate());
+        }
+    }
 }
