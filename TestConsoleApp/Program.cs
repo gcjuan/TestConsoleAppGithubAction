@@ -2,4 +2,5 @@
 
 using TestConsoleApp;
 
+// added comment
 Console.WriteLine($"Today is {Utility.GetCurrentDate()}");
