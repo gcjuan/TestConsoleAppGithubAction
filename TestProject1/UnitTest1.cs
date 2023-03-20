@@ -8,6 +8,7 @@ namespace TestProject1
 		[Fact]
 		public void Test1()
 		{
+			//some change
 			Assert.Equal(DateTime.Now.ToString("f"), Utility.GetCurrentDate());
 
 		}
